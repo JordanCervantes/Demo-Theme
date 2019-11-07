@@ -1,0 +1,14 @@
+.footer_menu{
+	width: 100%;
+	height: 35vh;
+	background-color:#012439;
+	padding: 20px 50px;
+	@include clearfix();
+
+	.footer_nav{
+		text-align: center;
+		color: white;
+		font-size: 40px;
+		}
+
+}

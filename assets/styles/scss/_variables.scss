@@ -1,0 +1,31 @@
+// Paths
+$img_path: '../../images/';
+
+// Install fonts
+@include font-face(ataura, '../../fonts/ATAura/ATAura');
+@include font-face(gotham, '../../fonts/Gotham/Gotham-Book');
+@include font-face(gotham, '../../fonts/Gotham/Gotham-Bold', '', 600);
+@include font-face(gotham, '../../fonts/Gotham/Gotham-Ultra', '', 900);
+@include font-face(UniversLT, '../../fonts/UniversLT47CnLt/UniversLTStd-LightCn', '', 100);
+@include font-face(UniversLT, '../../fonts/UniversLTStd57Cn/UniversLTStd-Cn');
+
+//Font Family
+$font_header:"gotham",helvetica,arial,sans-serif;
+$font_subheader:"ataura",helvetica,arial,sans-serif;
+$font_body:"UniversLT",helvetica,arial,sans-serif;
+
+//Colors
+$color-blue: #25536e;
+$color-dark-blue:#00283c;
+$color-yellow: #e9df48;
+
+$color-white: #fff;
+$color-light-gray: #d5d5d5;
+$color-gray: #757575;
+$color-dark-gray: #242424;
+
+$color-primary: $color-dark-blue;
+$color-secondary: $color-yellow;
+
+// Misc
+$shadow: 0 5px 8px -3px rgba(black, 0.3);

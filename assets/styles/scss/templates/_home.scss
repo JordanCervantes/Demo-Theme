@@ -1,0 +1,134 @@
+//HOME PAGE
+.hero_banner{
+	height: 870px;
+	position: relative;
+
+	.hero_content{
+		background-image: url(../../images/fall_road.jpeg);
+		background-size: cover;
+		background-repeat: no-repeat;
+		width: 100%;
+		color: white;
+		height: 870px;
+		padding-bottom: 5px;
+	}
+	/*.hero_intro_text{
+		font-family: $font_subheader;
+		text-transform: uppercase;
+		font-size: rem-calc(60);
+		font-weight: 300;
+		color: white;
+		padding-top: 25%;
+		padding-left: rem-calc(70);
+		line-height: 20px;
+		letter-spacing: 1px;
+		>p{
+			display: inline-block;
+			margin-bottom: 0;
+		}
+
+	}*/
+	.hero_main_text{
+		text-transform: uppercase;
+		font-size: rem-calc(155);
+		font-weight: 400;
+		font-family: $font_header;
+		padding-left: rem-calc(60);
+		padding-top: rem-calc(300);
+		margin-bottom: 0;
+		text-align: center;
+	}
+	/*.hero_foot_text{
+		padding-top: rem-calc(30);
+		padding-left: rem-calc(70);
+		font-size: rem-calc(18);
+		line-height: 0px;
+	}*/
+	span.avoidwrap {
+			display:inline-block;
+			padding-left: rem-calc(70);
+			font-size: rem-calc(18);
+
+		}
+	.foreground_image{
+		position: absolute;
+		background-repeat: no-repeat;
+		height: 650px;
+		width: auto;
+		right: -50px;
+		top: 0;
+	}
+}
+
+
+// HOME SECTIONS
+
+.home{
+	.section{
+
+		.row{
+			&.expanded{
+				max-width:1600px;
+			}
+		}
+
+		.section-title{
+			font-size:7em;
+			text-shadow:0 4px 4px rgba(black, .2);
+			line-height:1;
+			small{
+				font-size:32px;
+				font-weight:100;
+				line-height:1;
+				text-shadow:none;
+				color:inherit;
+				display:block;
+			}
+		}
+
+		.lead{
+			font-size:1.5em;
+			text-shadow:0 1px 1px rgba(black, .2);
+		}
+
+	}
+}
+
+
+
+#section1{
+	height: auto;
+	background-image: url(../../images/fall_tracks.jpeg);
+	background-size: cover;
+	background-position:center;
+
+	.section-title{
+		color:white;
+	}
+}
+
+#section2{
+	background-image: url(../../images/logging_road.jpeg);
+	background-size: cover;
+	width: 100%;
+	min-height: 70vh;
+	color: $color-dark-blue;
+
+	.callout{
+		background-color:rgba(white, 0.75);
+		padding:2em;
+		color:$color-dark-blue;
+
+		.title{
+			text-transform:uppercase;
+			font-weight:600;
+			font-size:1.4em;
+			font-family:$font-header;
+			margin-bottom:20px;
+		}
+
+		p{
+			height:80px;
+		}
+	}
+}

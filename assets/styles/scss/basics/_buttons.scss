@@ -1,0 +1,23 @@
+/* Buttons */
+
+.button{
+	font-size: 1rem;
+	padding: 1.1rem 4rem 1rem;
+	text-transform: uppercase;
+
+	&.link{
+		background-color:transparent;
+	}
+
+	&-yellow {
+		background: $color-yellow;
+		color: $color-primary;
+		font-weight: bold;
+
+		&:hover {
+			background: darken($color-yellow, 15%);
+			color: $color-primary;
+		}
+	}
+
+}

@@ -1,0 +1,43 @@
+.entry-article {
+	border-bottom: 1px solid $color-gray;
+	clear: both;
+	margin: 1.5rem 0;
+	overflow: hidden;
+
+	&:last-child {
+		border-bottom: none;
+	}
+
+	.entry-title {
+		color: $color-dark-blue;
+		font-size: 1.5rem;
+		font-weight: bold;
+		text-transform: uppercase;
+
+		a {
+			color: $color-primary;
+		}
+	}
+
+	.entry-summary {
+		@include break-point (tablet) {
+			width: calc( 100% - 20.25rem);
+			float: left;
+		}
+	}
+
+	.entry-thumbnail {
+		height: 12.5rem;
+		margin: .375rem 1.5rem 1.5rem 0;
+		width: 18.75rem;
+
+		@include break-point (tablet) {
+			float: left;
+		}
+
+		img {
+			height: 12.5rem;
+			width: 18.75rem;
+		}
+	}
+}
